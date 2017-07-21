@@ -1,32 +1,28 @@
-This is an addon starter template for the [Ionic Framework](http://ionicframework.com/).
+# Ionic OCR example app
 
-## How to use this template
+<p align="center">
+  <img src="img/logo.png" alt="Logo"/>
+</p>
 
-*This template does not work on its own*. It is missing the Ionic library, and AngularJS.
+This is a simple Ionic app using [ocrad.js](https://github.com/antimatter15/ocrad.js)
 
-To use this, either create a new ionic project using the ionic node.js utility, or copy and paste this into an existing Cordova project and download a release of Ionic separately.
+[YouTube Video](https://youtu.be/4KH0p0vxO8w)
 
-### With the Ionic tool:
-
-Take the name after `ionic-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myApp tabs
+## Getting Started
+```
+$ ionic start ionic-ocr-example https://github.com/matiastucci/ionic-ocr-example/tree/v1
+$ cd ionic-ocr-example
+$ cordova plugin add cordova-plugin-camera
+$ ionic run ios
 ```
 
-Then, to run it, cd into `myApp` and run:
+## Plugins (using ngCordova)
+* [cordova-plugin-camera]
 
-```bash
-$ ionic platform add ios
-$ ionic build ios
-$ ionic emulate ios
-```
+## Test it with Ionic View
+* Download the [Ionic view] app
+* Signup/login to the app
+* Insert this ID: **b3df25df**
 
-Substitute ios for android if not on a Mac, but if you can, the ios development toolchain is a lot easier to work with until you need to do anything custom to Android.
-
-## Demo
-http://plnkr.co/edit/qYMCrt?p=preview
-
-## Issues
-Issues have been disabled on this repo, if you do find an issue or have a question consider posting it on the [Ionic Forum](http://forum.ionicframework.com/).  Or else if there is truly an error, follow our guidelines for [submitting an issue](http://ionicframework.com/contribute/#issues) to the main Ionic repository. On the other hand, pull requests are welcome here!
+[Ionic view]:http://view.ionic.io/
+[cordova-plugin-camera]:http://ngcordova.com/docs/plugins/camera/
